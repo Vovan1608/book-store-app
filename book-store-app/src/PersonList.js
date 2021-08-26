@@ -3,40 +3,19 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 
 export default function PersonList() {
-	const [persons, setPersons] = useState([]);
+	const [pers, setPers] = useState([]);
 
-	useEffect(() => {
+	useEffect(_ => {
 		axios.get(`http://localhost:3000/users`)
 			.then(res => {
-				const allPersons = res.data;
-				setPersons(allPersons);
+				const allPers = res.data;
+				setPers(allPers);
     });
-	}, [setPersons]);
+	}, [setPers]);
 
 	return (
 		<ul>
-			{ persons.map(person => <li key={person.createdAt + person.id}>{person.email}</li>)}
+			{ pers.map(p => <li key={p.createdAt + p.id}>{p.email}</li>)}
 		</ul>
 	)
 }
-// export default class PersonList extends React.Component {
-//   state = {
-//     persons: []
-//   }
-
-//   componentDidMount() {
-//     axios.get(`http://localhost:3000/users`)
-//       .then(res => {
-//         const persons = res.data;
-//         this.setState({ persons });
-//       })
-//   }
-
-//   render() {
-//     return (
-//       <ul>
-//         { this.state.persons.map(person => <li key={person.createdAt + person.id}>{person.email}</li>)}
-//       </ul>
-//     )
-//   }
-// }
