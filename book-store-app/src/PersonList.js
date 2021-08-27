@@ -1,16 +1,12 @@
 import React from 'react';
-import axios from 'axios';
 import { useState, useEffect } from 'react';
+import { get } from './services/API';
 
 export default function PersonList() {
 	const [pers, setPers] = useState([]);
 
 	useEffect(_ => {
-		axios.get(`http://localhost:3000/users`)
-			.then(res => {
-				const allPers = res.data;
-				setPers(allPers);
-    });
+		get().then(res => setPers(res.data));
 	}, [setPers]);
 
 	return (
