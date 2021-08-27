@@ -1,10 +1,12 @@
 import './App.css';
 import MainPage from './components/MainPage';
+// import PersonList from './PersonList';
 
 function App() {
   return (
     <div className="center">
       <MainPage />
+      {/* <PersonList /> */}
     </div>
   );
 }
