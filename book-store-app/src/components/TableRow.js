@@ -1,12 +1,30 @@
-export default function TableData() {
+import Actions from "./Actions";
+import { get } from "../services/API";
+import { useState, useEffect } from 'react';
+
+export default function TableRow() {
+	const [persons, setPers] = useState([]);
+
+	useEffect(_ => {
+		get().then(res => setPers(res.data));
+	}, [setPers]);
+
 	return (
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
-		</tr>
+		<tbody>
+			{persons.map(person => {
+				return (
+					<tr key={person.createdAt}>
+						<td>{person.id}</td>
+						<td>{person.name}</td>
+						<td>{person.surname}</td>
+						<td>{person.phone}</td>
+						<td>{person.email}</td>
+						<td>
+							<Actions />
+						</td>
+					</tr>
+				);
+			})}
+		</tbody>
 	);
 }
