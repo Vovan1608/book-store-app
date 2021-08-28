@@ -1,6 +1,7 @@
 import './App.css';
 import MainPage from './MainPage';
-// import PersonList from './PersonList';
+
+// import PersonList from '../PersonList';
 
 function App() {
   return (

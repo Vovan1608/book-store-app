@@ -104,3 +104,44 @@ tr {
 .action_img {
   width: 100%;
 }
+
+.books_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* card */
+.card_container {
+  display: grid;
+  width: 330px;
+  height: 416px;
+  grid-template-areas:
+    "picture author"
+    "picture public"
+    "description description";
+  grid-template-rows: 39px 208px 169px;
+  grid-template-columns: 179px 151px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.picture {
+  grid-area: picture;
+}
+
+.img_card {
+  width: 100%;
+}
+
+.author {
+  grid-area: author;
+}
+
+.public {
+  grid-area: public;
+}
+
+.description {
+  grid-area: description;
+  text-align: left;
+  padding-right: 10px;
+}

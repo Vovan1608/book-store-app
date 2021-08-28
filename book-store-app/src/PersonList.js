@@ -1,29 +1,46 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { get, post } from './services/API';
+// import API from './services/API';
+import { getAxios, /* post, deleteAxios */ } from '../src/services/API';
 
 export default function PersonList() {
-	const [pers, setPers] = useState([]);
+	const [posts, setPosts] = useState([]);
 
-	const user = {
-		"createdAt": "2021-08-27T18:37:05.218Z",
-		"name": "Tomas",
-		"avatar": "https://cdn.fakercloud.com/avatars/stefanotirloni_128.jpg",
-		"surname": "Jonson",
-		"email": "Tom_Jnglas21@gmail.com",
-		"phone": "(063) 122-7206",
-		"id": "26"
+	const getPosts = _ => {
+		const resp = getAxios();
+		return resp;
 	}
 
-	post(user);
+	// const info = {
+	// 	"id": 2,
+	// 	"title": "java-script",
+	// 	"author": "ECMAScript"
+	// }
+
+	// const sendInfo = async _ => {
+	// 	const res = await post(info);
+	// 	setPosts([...posts, res.data]);
+	// }
+
+	// sendInfo();
 
 	useEffect(_ => {
-		get().then(res => setPers(res.data));
-	}, [setPers]);
+		getPosts().then(res => setPosts(res.data));
+	}, [setPosts]);
+
+	// const del = async _ => {
+	// 	setTimeout(() => {
+	// 		deleteAxios(2);
+	// 	}, 5000)
+	// }
+
+	// del()
+
+
 
 	return (
 		<ul>
-			{ pers.map(p => <li key={p.createdAt + p.id}>{p.email}</li>)}
+			{ posts.map(p => <li key={p.id}>{p.author}</li>)}
 		</ul>
 	)
 }

@@ -16,7 +16,7 @@
   "profile": {
     "name": "typicode"
   },
-  "users": [
+  "authors": [
     {
       "createdAt": "2021-08-19T09:18:37.169Z",
       "name": "Melvin",
@@ -241,6 +241,49 @@
       "email": "vv_Zen@i.ua",
       "phone": "095 52 777 01",
       "id": "25"
+    }
+  ],
+  "books": [
+    {
+      "name": "Lorem 1",
+      "date_of_publication": "2222.22.02",
+      "picture": "https://cdn.fakercloud.com/avatars/agustincruiz_128.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto id ut quae explicabo voluptate, officiis, possimus non cupiditate dolorem nisi assumenda corporis maiores!",
+      "id": 1
+    },
+    {
+      "name": "Lorem 2",
+      "date_of_publication": "2332.23.03",
+      "picture": "https://cdn.fakercloud.com/avatars/agustincruiz_128.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto id ut quae explicabo voluptate, officiis, possimus non cupiditate dolorem nisi assumenda corporis maiores!",
+      "id": 2
+    },
+    {
+      "name": "Lorem 3",
+      "date_of_publication": "2224.24.04",
+      "picture": "https://cdn.fakercloud.com/avatars/agustincruiz_128.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto id ut quae explicabo voluptate, officiis, possimus non cupiditate dolorem nisi assumenda corporis maiores!",
+      "id": 3
+    },
+    {
+      "name": "Lorem 4",
+      "date_of_publication": "2522.52.5",
+      "picture": "https://cdn.fakercloud.com/avatars/agustincruiz_128.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto id ut quae explicabo voluptate, officiis, possimus non cupiditate dolorem nisi assumenda corporis maiores!",
+      "id": 4
+    },{
+      "name": "Lorem 5",
+      "date_of_publication": "6262.62.06",
+      "picture": "https://cdn.fakercloud.com/avatars/agustincruiz_128.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto id ut quae explicabo voluptate, officiis, possimus non cupiditate dolorem nisi assumenda corporis maiores!",
+      "id": 5
+    },
+    {
+      "name": "Lorem 6",
+      "date_of_publication": "2237.27.72",
+      "picture": "https://cdn.fakercloud.com/avatars/agustincruiz_128.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto id ut quae explicabo voluptate, officiis, possimus non cupiditate dolorem nisi assumenda corporis maiores!",
+      "id": 6
     }
   ]
 }

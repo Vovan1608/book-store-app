@@ -1,12 +1,12 @@
 import Actions from "./Actions";
-import { get } from "../services/API";
+import { getAxios } from "../services/API";
 import { useState, useEffect } from 'react';
 
 export default function TableRow() {
 	const [persons, setPers] = useState([]);
 
 	useEffect(_ => {
-		get().then(res => setPers(res.data));
+		getAxios('/authors').then(res => setPers(res.data));
 	}, [setPers]);
 
 	return (
