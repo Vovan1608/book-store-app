@@ -1,5 +1,5 @@
 import './App.css';
-import MainPage from './components/MainPage';
+import MainPage from './MainPage';
 // import PersonList from './PersonList';
 
 function App() {
