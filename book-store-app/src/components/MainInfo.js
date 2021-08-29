@@ -1,12 +1,12 @@
 import Search from "./Search";
-import PagePath from "./PagePath";
 import Table from "./Table";
+import AddAuthor from "./AddAuthor";
 
 const MainInfo = _ => {
 	return (
 		<main className="main">
 			<Search />
-			<PagePath name="Add Author" />
+			<AddAuthor />
 			<Table />
 		</main>
 	);

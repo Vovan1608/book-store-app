@@ -15,7 +15,8 @@ const MainPage = _ => {
 				<Header />
 				<Sidebar />
 				<Switch>
-					<Route exact path="/authors" component={MainInfo} />
+					<Route exact path="/" component={MainInfo} />
+					<Route path="/authors" component={MainInfo} />
 					<Route path="/books" component={Books} />
 				</Switch>
 			</div>
