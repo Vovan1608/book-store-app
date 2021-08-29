@@ -3,7 +3,7 @@ import basket from "../actions/basket.svg";
 import pencil from "../actions/pencil.svg";
 import arrow from "../actions/arrow.svg";
 
-export default function Actions() {
+const Actions = _ => {
 	return (
 		<div className="actions">
 			<Action text='pencil' path={pencil}/>
@@ -12,3 +12,5 @@ export default function Actions() {
 		</div>
 	);
 }
+
+export default Actions;

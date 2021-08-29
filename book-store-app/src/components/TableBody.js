@@ -1,9 +1,11 @@
 import TableRow from "./TableRow";
 
-export default function TableBody() {
+const TableBody = _ => {
 	return (
 		<tbody>
 			<TableRow />
 		</tbody>
 	);
 }
+
+export default TableBody;

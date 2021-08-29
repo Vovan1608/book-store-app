@@ -1,12 +1,14 @@
-export default function Card(props) {
+const Card = ({name, author, description, path}) => {
 	return (
 		<div className="card_container">
 			<div className="picture">
-				<img src={props.path} alt={props.name} className="img_card"/>
+				<img src={path} alt={name} className="img_card"/>
 			</div>
-			<div className="author">{props.name}</div>
-			<div className="public">{props.publication}</div>
-			<div className="description">{props.description}</div>
+			<div className="book-name">{name}</div>
+			<div className="author">{author}</div>
+			<div className="description">{description}</div>
 		</div>
 	);
 }
+
+export default Card;

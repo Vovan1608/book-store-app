@@ -15,7 +15,7 @@
   grid-template-areas:
     "sidebar header"
     "sidebar main";
-  grid-template-rows: 59px 965px;
+  grid-template-rows: 59px 100%;
   grid-template-columns: 204px 1236px;
   background-color: #eee;
 }
@@ -110,14 +110,15 @@ tr {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 /* card */
 .card_container {
   display: grid;
   width: 330px;
   height: 416px;
   grid-template-areas:
+    "picture book-name"
     "picture author"
-    "picture public"
     "description description";
   grid-template-rows: 39px 208px 169px;
   grid-template-columns: 179px 151px;
@@ -132,19 +133,25 @@ tr {
 
 .img_card {
   width: 100%;
+  height: 100%;
+}
+
+.book-name {
+  grid-area: book-name;
+  height: auto;
+  margin: 2px;
+  padding: 2px;
 }
 
 .author {
   grid-area: author;
-}
-
-.public {
-  grid-area: public;
+  padding: 2px;
+  margin: 2px;
 }
 
 .description {
   grid-area: description;
   text-align: left;
-  padding: 0 5px;
+  padding: 5px 5px;
   margin: 0 5px;
 }

@@ -1,7 +1,7 @@
 import Logo from "./Logo";
 import PagePath from "./PagePath";
 
-export default function Sidebar() {
+const Sidebar = _ => {
 	return (
     <nav className="sidebar">
       <Logo />
@@ -10,3 +10,5 @@ export default function Sidebar() {
     </nav>
 	);
 }
+
+export default Sidebar;

@@ -1,9 +1,11 @@
-export default function TableHeaders(props) {
+const TableHeaders = ({headers}) => {
 	return (
 		<thead>
 			<tr>
-				{props.headers.map(header => <td key={header}>{header}</td>)}
+				{headers.map(header => <td key={header}>{header}</td>)}
 			</tr>
 		</thead>
 	);
 }
+
+export default TableHeaders;

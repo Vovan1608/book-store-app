@@ -8,7 +8,7 @@ import {
   Route
 } from "react-router-dom";
 
-export default function MainPage() {
+const MainPage = _ => {
 	return (
 		<Router>
 			<div className="wrap">
@@ -22,3 +22,5 @@ export default function MainPage() {
 		</Router>
 	);
 }
+
+export default MainPage;

@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom'
 
-export default function PagePath(props) {
+const PagePath = ({name}) => {
 	return (
 		<div className="text_path">
-			<Link to={`/${props.name.toLowerCase()}`}>
-				{props.name}
+			<Link to={`/${name.toLowerCase()}`}>
+				{name}
 			</Link>
 		</div>
 	);
 }
+
+export default PagePath;

@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Search from "./Search";
 import Card from "./Card";
 
-export default function Books() {
+const Books = _ => {
 	const [books, setBooks] = useState([]);
 
 	useEffect(_ => {
@@ -15,13 +15,13 @@ export default function Books() {
 			<Search />
 			<div className="books_container">
 				{books.map(book => {
-					const {id, picture, name, date_of_publication, description} = book;
+					const {id, picture, name, author, description} = book;
 					return (
 						<Card
 							key={id}
 							path={picture}
 							name={name}
-							publication={date_of_publication}
+							author={author}
 							description={description}
 						/>
 					);
@@ -30,3 +30,5 @@ export default function Books() {
 		</main>
 	);
 }
+
+export default Books;

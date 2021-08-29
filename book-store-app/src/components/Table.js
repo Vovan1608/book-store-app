@@ -1,9 +1,9 @@
 import TableHeaders from "./TableHeaders";
 import TableRow from "./TableRow";
 
-const headers = ['Date', 'First Name', 'Last Name', 'Date of birth', 'Date of death', 'Actions'];
+const Table = _ => {
+	const headers = ['Date', 'First Name', 'Last Name', 'Date of birth', 'Date of death', 'Actions'];
 
-export default function Table() {
 	return (
 		<table className="table">
 			<TableHeaders headers={headers}/>
@@ -11,3 +11,5 @@ export default function Table() {
 		</table>
 	);
 }
+
+export default Table;

@@ -3,7 +3,7 @@ import MainPage from './MainPage';
 
 // import PersonList from '../PersonList';
 
-function App() {
+const App = _ => {
   return (
     <div className="center">
       <MainPage />

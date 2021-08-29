@@ -2,7 +2,7 @@ import Search from "./Search";
 import PagePath from "./PagePath";
 import Table from "./Table";
 
-export default function MainInfo() {
+const MainInfo = _ => {
 	return (
 		<main className="main">
 			<Search />
@@ -11,3 +11,5 @@ export default function MainInfo() {
 		</main>
 	);
 }
+
+export default MainInfo;

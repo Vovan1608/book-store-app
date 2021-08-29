@@ -2,7 +2,7 @@ import Actions from "./Actions";
 import { getAxios } from "../services/API";
 import { useState, useEffect } from 'react';
 
-export default function TableRow() {
+const TableRow = _ => {
 	const [persons, setPers] = useState([]);
 
 	useEffect(_ => {
@@ -12,13 +12,15 @@ export default function TableRow() {
 	return (
 		<tbody>
 			{persons.map(person => {
+				const {createdAt, id, name, surname, phone, email} = person;
+
 				return (
-					<tr key={person.createdAt}>
-						<td>{person.id}</td>
-						<td>{person.name}</td>
-						<td>{person.surname}</td>
-						<td>{person.phone}</td>
-						<td>{person.email}</td>
+					<tr key={createdAt}>
+						<td>{id}</td>
+						<td>{name}</td>
+						<td>{surname}</td>
+						<td>{phone}</td>
+						<td>{email}</td>
 						<td>
 							<Actions />
 						</td>
@@ -28,3 +30,5 @@ export default function TableRow() {
 		</tbody>
 	);
 }
+
+export default TableRow;

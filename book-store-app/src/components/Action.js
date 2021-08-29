@@ -1,7 +1,9 @@
-export default function Action(props) {
+const Action = ({path, text}) => {
 	return (
 		<span className="action">
-			<img src={props.path} alt={props.text} className="action_img" />
+			<img src={path} alt={text} className="action_img" />
 		</span>
 	);
 }
+
+export default Action;
