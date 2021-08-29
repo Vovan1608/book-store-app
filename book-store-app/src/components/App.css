@@ -108,6 +108,7 @@ tr {
 .books_container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 /* card */
 .card_container {
@@ -121,7 +122,8 @@ tr {
   grid-template-rows: 39px 208px 169px;
   grid-template-columns: 179px 151px;
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
+  background-color: #fff;
 }
 
 .picture {
@@ -143,5 +145,6 @@ tr {
 .description {
   grid-area: description;
   text-align: left;
-  padding-right: 10px;
+  padding: 0 5px;
+  margin: 0 5px;
 }

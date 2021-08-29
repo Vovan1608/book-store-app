@@ -14,11 +14,9 @@ export default function MainPage() {
 			<div className="wrap">
 				<Header />
 				<Sidebar />
-				{/* <MainInfo /> */}
-				{/* <Books /> */}
 				<Switch>
 					<Route exact path="/authors" component={MainInfo} />
-					<Route path="/about" component={Books} />
+					<Route path="/books" component={Books} />
 				</Switch>
 			</div>
 		</Router>
