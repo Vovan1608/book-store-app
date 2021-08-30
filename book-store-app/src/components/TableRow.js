@@ -4,24 +4,24 @@ import { useState, useEffect } from 'react';
 
 const TableRow = ({search}) => {
 	const [persons, setPers] = useState([]);
-	const [filteredPersons, setFilteredPersons] = useState([]);
+	const [filtered, setFiltered] = useState([]);
 
-	useEffect(_ => {
+	useEffect(() => {
 		getAxios('/authors').then(res => setPers(res.data));
 	}, [setPers]);
 
+	useEffect(() => {
+		const searchRegExp = new RegExp(`${search}`, 'i');
 
-	useEffect((persons, search) => {
 		if (search) {
-			const searchRegExp = new RegExp(`${search}`, 'i');
-			const filtered = persons
+			const filter = persons
 				.filter(({name, surname}) => [name, surname].some(el => searchRegExp.test(el)));
 
-			setFilteredPersons(filtered);
+			setFiltered(filter);
 		}
-	}, [setFilteredPersons]);
+	}, [search]);
 
-	const data = search ? filteredPersons : persons;
+	const data = search ? filtered : persons;
 
 	return (
 		<tbody>
