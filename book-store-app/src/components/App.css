@@ -155,3 +155,17 @@ tr {
   padding: 5px 5px;
   margin: 0 5px;
 }
+
+/* Modal */
+.modal_wrap {
+  width: 250px;
+  height: 200px;
+  position: relative;
+  left: -58px;
+  top: 57px;
+  background-color: blue;
+}
+
+.hide {
+  display: none;
+}
