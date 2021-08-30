@@ -1,13 +1,13 @@
 import TableHeaders from "./TableHeaders";
 import TableRow from "./TableRow";
 
-const Table = _ => {
+const Table = ({searchStr}) => {
 	const headers = ['Date', 'First Name', 'Last Name', 'Date of birth', 'Date of death', 'Actions'];
 
 	return (
 		<table className="table">
 			<TableHeaders headers={headers}/>
-			<TableRow />
+			<TableRow search={searchStr}/>
 		</table>
 	);
 }

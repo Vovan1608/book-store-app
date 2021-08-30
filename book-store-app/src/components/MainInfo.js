@@ -1,13 +1,16 @@
 import Search from "./Search";
 import Table from "./Table";
 import AddAuthor from "./AddAuthor";
+import { useState } from "react";
 
 const MainInfo = _ => {
+	const [searchExp, setSearchExp] = useState('');
+
 	return (
 		<main className="main">
-			<Search />
+			<Search passData={setSearchExp}/>
 			<AddAuthor />
-			<Table />
+			<Table searchStr={searchExp}/>
 		</main>
 	);
 }

@@ -1,11 +1,12 @@
 import { useState } from "react";
 
-const Search = _ => {
+const Search = ({passData}) => {
 	const [searchString, setSearchString] = useState('');
 
   const onChangeSearch = e => {
     const { value } = e.target;
-    setSearchString(value);
+		setSearchString(value);
+    passData(value);
   }
 
 	return (
