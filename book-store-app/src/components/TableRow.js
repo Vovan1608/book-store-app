@@ -8,7 +8,7 @@ const TableRow = ({search}) => {
 
 	useEffect(() => {
 		getAxios('/authors').then(res => setPers(res.data));
-	}, [setPers]);
+	}, [persons]);
 
 	useEffect(() => {
 		const searchRegExp = new RegExp(`${search}`, 'i');
@@ -26,17 +26,17 @@ const TableRow = ({search}) => {
 	return (
 		<tbody>
 			{data.map(person => {
-				const {createdAt, id, name, surname, phone, email} = person;
+				const {createdAt, id, name, surname, date_of_birth, date_of_death} = person;
 
 				return (
-					<tr key={createdAt}>
+					<tr key={createdAt + id + name}>
 						<td>{id}</td>
 						<td>{name}</td>
 						<td>{surname}</td>
-						<td>{phone}</td>
-						<td>{email}</td>
+						<td>{date_of_birth}</td>
+						<td>{date_of_death}</td>
 						<td>
-							<Actions />
+							<Actions id={id}/>
 						</td>
 					</tr>
 				);

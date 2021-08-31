@@ -20,227 +20,114 @@
     {
       "createdAt": "2021-08-19T09:18:37.169Z",
       "name": "Melvin",
-      "avatar": "https://cdn.fakercloud.com/avatars/agustincruiz_128.jpg",
       "surname": "Wolf",
-      "email": "Karli_Schroeder@yahoo.com",
-      "phone": "699.936.5295",
+      "date_of_birth": "1917-05-01",
+      "date_of_death": "1988-03-03",
       "id": "1"
     },
     {
       "createdAt": "2021-08-18T21:26:29.975Z",
       "name": "Savanah",
-      "avatar": "https://cdn.fakercloud.com/avatars/pifagor_128.jpg",
       "surname": "Murazik",
-      "email": "Godfrey34@gmail.com",
-      "phone": "1-324-971-0005 x045",
+      "date_of_birth": "1966-08-10",
+      "date_of_death": "---",
       "id": "2"
     },
     {
       "createdAt": "2021-08-18T15:37:12.114Z",
       "name": "Cody",
-      "avatar": "https://cdn.fakercloud.com/avatars/tristanlegros_128.jpg",
       "surname": "McKenzie",
-      "email": "Layla79@yahoo.com",
-      "phone": "1-588-833-1952 x9839",
+      "date_of_birth": "1937-01-21",
+      "date_of_death": "1998-09-23",
       "id": "3"
-    },
-    {
-      "createdAt": "2021-08-18T14:08:10.031Z",
-      "name": "Ramona",
-      "avatar": "https://cdn.fakercloud.com/avatars/gojeanyn_128.jpg",
-      "surname": "Raynor",
-      "email": "Jaden.MacGyver65@hotmail.com",
-      "phone": "1-956-412-4928 x824",
-      "id": "4"
     },
     {
       "createdAt": "2021-08-19T06:09:47.481Z",
       "name": "Addie",
-      "avatar": "https://cdn.fakercloud.com/avatars/Silveredge9_128.jpg",
       "surname": "Koelpin",
-      "email": "Ayana39@yahoo.com",
-      "phone": "766-415-8645",
+      "date_of_birth": "1957-02-11",
+      "date_of_death": "1995-11-09",
       "id": "5"
     },
     {
       "createdAt": "2021-08-18T22:53:18.719Z",
       "name": "Damion",
-      "avatar": "https://cdn.fakercloud.com/avatars/kapaluccio_128.jpg",
       "surname": "Collier",
-      "email": "Ludie.Runte@yahoo.com",
-      "phone": "1-731-869-0222",
+      "date_of_birth": "1929-08-21",
+      "date_of_death": "1999-11-23",
       "id": "6"
     },
     {
       "createdAt": "2021-08-19T11:17:44.944Z",
       "name": "Leanne",
-      "avatar": "https://cdn.fakercloud.com/avatars/arishi__128.jpg",
       "surname": "DuBuque",
-      "email": "Dorothy.Tremblay11@gmail.com",
-      "phone": "1-637-980-7162 x2773",
+      "date_of_birth": "1939-15-21",
+      "date_of_death": "1986-04-13",
       "id": "7"
     },
     {
       "createdAt": "2021-08-19T03:29:24.629Z",
       "name": "Thalia",
-      "avatar": "https://cdn.fakercloud.com/avatars/jarjan_128.jpg",
       "surname": "Boyle",
-      "email": "Laurianne0@hotmail.com",
-      "phone": "1-855-311-9124 x631",
+      "date_of_birth": "1963-07-18",
+      "date_of_death": "---",
       "id": "8"
     },
     {
-      "createdAt": "2021-08-19T08:30:32.368Z",
-      "name": "Abner",
-      "avatar": "https://cdn.fakercloud.com/avatars/cloudstudio_128.jpg",
-      "surname": "Hoeger",
-      "email": "Maryam52@hotmail.com",
-      "phone": "306-448-3968 x641",
-      "id": "9"
+      "createdAt": "2021-08-31",
+      "id": "9",
+      "name": "Bob",
+      "surname": "Masko",
+      "date_of_birth": "1981-10-81",
+      "date_of_death": "---"
     },
     {
-      "createdAt": "2021-08-18T23:56:35.965Z",
-      "name": "Dakota",
-      "avatar": "https://cdn.fakercloud.com/avatars/colirpixoil_128.jpg",
-      "surname": "Gibson",
-      "email": "Rogelio.Jerde70@yahoo.com",
-      "phone": "419-869-6772 x53172",
-      "id": "10"
+      "createdAt": "2021-30-08",
+      "id": "10",
+      "name": "Bob",
+      "surname": "Nom",
+      "date_of_birth": "1956-12-13",
+      "date_of_death": "2020-01-23"
     },
     {
-      "createdAt": "2021-08-18T19:15:30.905Z",
-      "name": "Ricardo",
-      "avatar": "https://cdn.fakercloud.com/avatars/jeremyworboys_128.jpg",
-      "surname": "Gusikowski",
-      "email": "Rosalind.Waters@gmail.com",
-      "phone": "874.752.7469",
-      "id": "11"
+      "createdAt": "2021-07-15",
+      "id": "11",
+      "name": "Max",
+      "surname": "Loj",
+      "date_of_birth": "1913-10-12",
+      "date_of_death": "1985-12-31"
     },
     {
-      "createdAt": "2021-08-18T22:44:30.368Z",
-      "name": "Aubrey",
-      "avatar": "https://cdn.fakercloud.com/avatars/runningskull_128.jpg",
-      "surname": "Schuster",
-      "email": "Bethel_Toy@yahoo.com",
-      "phone": "1-989-256-1700",
-      "id": "12"
+      "createdAt": "2021-08-28",
+      "id": "4",
+      "name": "Tom",
+      "surname": "Lop",
+      "date_of_birth": "1958-12-05",
+      "date_of_death": "2019-10-10"
     },
     {
-      "createdAt": "2021-08-18T20:07:31.032Z",
-      "name": "Oda",
-      "avatar": "https://cdn.fakercloud.com/avatars/katiemdaly_128.jpg",
-      "surname": "Pouros",
-      "email": "Asia.Frami18@hotmail.com",
-      "phone": "447.230.6742 x375",
-      "id": "13"
+      "createdAt": "2021-30-08",
+      "id": "12",
+      "name": "Romero",
+      "surname": "DeTrio",
+      "date_of_birth": "1922-02-15",
+      "date_of_death": "2002-08-01"
     },
     {
-      "createdAt": "2021-08-19T07:13:53.053Z",
-      "name": "Lourdes",
-      "avatar": "https://cdn.fakercloud.com/avatars/chacky14_128.jpg",
-      "surname": "Renner",
-      "email": "Pattie_Hoppe@gmail.com",
-      "phone": "(981) 981-5951",
-      "id": "14"
+      "createdAt": "2021-07-15",
+      "id": "13",
+      "name": "Kol",
+      "surname": "McCer",
+      "date_of_birth": "1945-08-23",
+      "date_of_death": "1996-01-23"
     },
     {
-      "createdAt": "2021-08-18T20:51:09.272Z",
-      "name": "Ariel",
-      "avatar": "https://cdn.fakercloud.com/avatars/yayteejay_128.jpg",
-      "surname": "Welch",
-      "email": "Kaia96@gmail.com",
-      "phone": "946.395.0650 x082",
-      "id": "15"
-    },
-    {
-      "createdAt": "2021-08-19T11:37:05.218Z",
-      "name": "Shana",
-      "avatar": "https://cdn.fakercloud.com/avatars/stefanotirloni_128.jpg",
-      "surname": "Ferry",
-      "email": "Ona_Douglas21@gmail.com",
-      "phone": "(979) 491-7206 x4622",
-      "id": "16"
-    },
-    {
-      "createdAt": "2021-08-18T20:39:13.603Z",
-      "name": "Curt",
-      "avatar": "https://cdn.fakercloud.com/avatars/cofla_128.jpg",
-      "surname": "Abshire",
-      "email": "Emerald88@yahoo.com",
-      "phone": "404.342.5495",
-      "id": "17"
-    },
-    {
-      "createdAt": "2021-08-19T03:39:52.593Z",
-      "name": "Julio",
-      "avatar": "https://cdn.fakercloud.com/avatars/funwatercat_128.jpg",
-      "surname": "Hickle",
-      "email": "Willa96@hotmail.com",
-      "phone": "1-488-748-0790 x344",
-      "id": "18"
-    },
-    {
-      "createdAt": "2021-08-19T05:22:02.767Z",
-      "name": "Margarita",
-      "avatar": "https://cdn.fakercloud.com/avatars/maximsorokin_128.jpg",
-      "surname": "Spinka",
-      "email": "Florian78@gmail.com",
-      "phone": "657.491.0580 x643",
-      "id": "19"
-    },
-    {
-      "createdAt": "2021-08-19T11:21:25.341Z",
-      "name": "Lawson",
-      "avatar": "https://cdn.fakercloud.com/avatars/xripunov_128.jpg",
-      "surname": "Baumbach",
-      "email": "Lauriane.Beer@gmail.com",
-      "phone": "(370) 589-4666 x80349",
-      "id": "20"
-    },
-    {
-      "createdAt": "2021-08-19T07:05:26.995Z",
-      "name": "Elisabeth",
-      "avatar": "https://cdn.fakercloud.com/avatars/mekal_128.jpg",
-      "surname": "Shanahan",
-      "email": "Dixie.Wiegand25@gmail.com",
-      "phone": "(394) 691-4175 x233",
-      "id": "21"
-    },
-    {
-      "createdAt": "2021-08-19T10:26:24.534Z",
-      "name": "Roderick",
-      "avatar": "https://cdn.fakercloud.com/avatars/emileboudeling_128.jpg",
-      "surname": "Keebler",
-      "email": "Leslie6@yahoo.com",
-      "phone": "1-845-244-6677 x97472",
-      "id": "22"
-    },
-    {
-      "createdAt": "2021-08-18T23:40:24.894Z",
-      "name": "Makayla",
-      "avatar": "https://cdn.fakercloud.com/avatars/nerdgr8_128.jpg",
-      "surname": "Osinski",
-      "email": "Kelsi.MacGyver91@gmail.com",
-      "phone": "(242) 773-3480",
-      "id": "23"
-    },
-    {
-      "createdAt": "2021-08-18T19:43:50.314Z",
-      "name": "Gwendolyn",
-      "avatar": "https://cdn.fakercloud.com/avatars/illyzoren_128.jpg",
-      "surname": "Pagac",
-      "email": "Estrella50@yahoo.com",
-      "phone": "1-738-670-9810",
-      "id": "24"
-    },
-    {
-      "createdAt": "2021-08-20T14:18:37.169Z",
-      "name": "Vladymyr",
-      "avatar": "https://cdn.fakercloud.com/avatars/fotomagin_128.jpg",
-      "surname": "Zenin",
-      "email": "vv_Zen@i.ua",
-      "phone": "095 52 777 01",
-      "id": "25"
+      "createdAt": "2021-07-14",
+      "id": "14",
+      "name": "Nick",
+      "surname": "Nikja",
+      "date_of_birth": "1973-07-29",
+      "date_of_death": "2018-12-12"
     }
   ],
   "books": [

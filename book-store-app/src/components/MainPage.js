@@ -2,6 +2,7 @@ import Sidebar from "./Sidebar";
 import Header from "./Header";
 import MainInfo from "./MainInfo";
 import Books from "./Books";
+import Modal from "./Modal";
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +21,7 @@ const MainPage = _ => {
 					<Route path="/books" component={Books} />
 				</Switch>
 			</div>
+			<Modal />
 		</Router>
 	);
 }

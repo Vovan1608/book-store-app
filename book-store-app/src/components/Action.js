@@ -1,8 +1,10 @@
-const Action = ({path, text}) => {
+const Action = ({path, text, id}) => {
 	return (
-		<span className="action">
-			<img src={path} alt={text} className="action_img" />
-		</span>
+		<>
+			<span className="action">
+				<img src={path} alt={text} className="action_img" id={id}/>
+			</span>
+		</>
 	);
 }
 
