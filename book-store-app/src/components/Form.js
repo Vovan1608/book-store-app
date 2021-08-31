@@ -1,7 +1,7 @@
 import Input from "./Input";
 import Button from "./Button";
-import { useState } from "react";
-import { postAxios } from "../services/API";
+import { useState, useEffect} from "react";
+import { postAxios, putAxios } from "../services/API";
 
 const Form = _ => {
 	const [createdAt, setCreatedAt] = useState('');
@@ -15,6 +15,7 @@ const Form = _ => {
 	const sets = [setCreatedAt, setId, setName, setSurname, setDateOfBirth, setDateOfDeath];
 
 	const dataToPost = {createdAt, id, name, surname, date_of_birth, date_of_death}
+	const dataToPut = Object.fromEntries(Object.entries(dataToPost).filter(([, val]) => Boolean(val) === true));
 
 	const modalEl = document.getElementById('modal_el');
 
@@ -27,12 +28,18 @@ const Form = _ => {
 	const onClick = e => {
 		if (e.target.id === 'close_btn') {
 			modalEl.classList.add('hide');
+			e.preventDefault();
 		}
 
 		if (e.target.id === 'edit_btn') {
+
+			putAxios(dataToPut['id'], dataToPut);
 			modalEl.classList.add('hide');
+			e.preventDefault();
 		}
 	}
+
+	useEffect(() => {console.log(dataToPut)}, [dataToPut]);
 
 	return (
 		<form onSubmit={onSubmit} onClick={onClick}>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Input = ({name, passData}) => {
+const Input = ({name, passData, id}) => {
 	const [input, setInput] = useState('');
 
 	const onInput = e => {
@@ -12,7 +12,7 @@ const Input = ({name, passData}) => {
 	return (
 		<>
 			<label>{name}</label>
-			<input placeholder={name} name={name} value={input} onInput={onInput}/>
+			<input placeholder={name} name={name} value={input} onInput={onInput} id={id}/>
 		</>
 	);
 }

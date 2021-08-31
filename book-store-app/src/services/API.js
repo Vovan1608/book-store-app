@@ -12,4 +12,6 @@ const postAxios = info => axios.post(`${baseUrl}/authors`, info);
 
 const deleteAxios = id => axios.delete(`${baseUrl}/authors/${id}`);
 
-export {getAxios, postAxios, deleteAxios}
+const putAxios = (id, info) => axios.put(`${baseUrl}/authors/${id}`, info)
+
+export {getAxios, postAxios, deleteAxios, putAxios}
