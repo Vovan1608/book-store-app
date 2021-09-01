@@ -15,7 +15,7 @@
   grid-template-areas:
     "sidebar header"
     "sidebar main";
-  grid-template-rows: 5% 95%;
+  grid-template-rows: 40px 95%;
   grid-template-columns: 204px 1236px;
   background-color: #eee;
 }
@@ -115,7 +115,7 @@ tr {
 /* card */
 .card_container {
   display: grid;
-  width: 330px;
+  width: 350px;
   height: 416px;
   grid-template-areas:
     "picture book-name"

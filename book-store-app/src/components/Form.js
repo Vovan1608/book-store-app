@@ -1,6 +1,6 @@
 import Input from "./Input";
 import Button from "./Button";
-import { useState, useEffect} from "react";
+import { useState } from "react";
 import { postAxios, putAxios } from "../services/API";
 
 const Form = _ => {
@@ -32,14 +32,11 @@ const Form = _ => {
 		}
 
 		if (e.target.id === 'edit_btn') {
-
-			putAxios(dataToPut['id'], dataToPut);
 			modalEl.classList.add('hide');
+			putAxios(dataToPut['id'], Object.fromEntries(Object.entries(dataToPut).filter(([key, ]) => key !== 'id')));
 			e.preventDefault();
 		}
 	}
-
-	useEffect(() => {console.log(dataToPut)}, [dataToPut]);
 
 	return (
 		<form onSubmit={onSubmit} onClick={onClick}>

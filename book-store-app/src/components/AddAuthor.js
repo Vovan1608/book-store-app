@@ -2,12 +2,9 @@ const AddAuthor = _ => {
 	const onClick = e => {
 		document.getElementById('modal_el').classList.remove('hide');
 
-		document.getElementById('createdAt').value = '';
-		document.getElementById('name').value = '';
-		document.getElementById('surname').value = '';
-		document.getElementById('date_of_birth').value = '';
-		document.getElementById('date_of_death').value = '';
-		document.getElementById('id').value = '';
+		const fields = ['createdAt', 'id', 'name', 'surname', 'date_of_birth', 'date_of_death'];
+
+		fields.forEach(el => document.getElementById(el).value = '');
 	}
 
 	return (

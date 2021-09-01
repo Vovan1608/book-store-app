@@ -8,7 +8,7 @@ const TableRow = ({search}) => {
 
 	useEffect(() => {
 		getAxios('/authors').then(res => setPers(res.data));
-	}, [persons]);
+	}, [setPers]);
 
 	useEffect(() => {
 		const searchRegExp = new RegExp(`${search}`, 'i');
@@ -19,7 +19,8 @@ const TableRow = ({search}) => {
 
 			setFiltered(filter);
 		}
-	}, [search]);
+
+	}, [search, persons]);
 
 	const data = search ? filtered : persons;
 

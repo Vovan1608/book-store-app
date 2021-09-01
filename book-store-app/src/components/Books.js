@@ -21,7 +21,7 @@ const Books = () => {
 
 			setFiltered(filter);
 		}
-	}, [searchExp]);
+	}, [searchExp, books]);
 
 	const data = searchExp ? filtered : books;
 
