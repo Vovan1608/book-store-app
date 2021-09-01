@@ -3,7 +3,7 @@ import Table from "./Table";
 import AddAuthor from "./AddAuthor";
 import { useState } from "react";
 
-const MainInfo = _ => {
+const MainInfo = () => {
 	const [searchExp, setSearchExp] = useState('');
 
 	return (

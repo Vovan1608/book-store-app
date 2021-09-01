@@ -4,10 +4,10 @@ const baseUrl = 'http://localhost:3001';
 
 const getAxios = path => axios.get(`${baseUrl}${path}`);
 
-const postAxios = info => axios.post(`${baseUrl}/authors`, info);
+const postAxios = (path ,info) => axios.post(`${baseUrl}/${path}`, info);
 
-const deleteAxios = id => axios.delete(`${baseUrl}/authors/${id}`);
+const deleteAxios = (path, id) => axios.delete(`${baseUrl}/${path}/${id}`);
 
-const putAxios = (id, info, config) => axios.put(`${baseUrl}/authors/${id}`, info, config);
+const putAxios = (path, id, info) => axios.put(`${baseUrl}/${path}/${id}`, info);
 
 export {getAxios, postAxios, deleteAxios, putAxios}

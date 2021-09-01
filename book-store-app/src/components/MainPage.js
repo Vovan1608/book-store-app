@@ -9,7 +9,7 @@ import {
   Route
 } from "react-router-dom";
 
-const MainPage = _ => {
+const MainPage = () => {
 	return (
 		<Router>
 			<div className="wrap">
@@ -19,9 +19,9 @@ const MainPage = _ => {
 					<Route exact path="/" component={MainInfo} />
 					<Route path="/authors" component={MainInfo} />
 					<Route path="/books" component={Books} />
+					<Route path="/modal" component={Modal} />
 				</Switch>
 			</div>
-			<Modal />
 		</Router>
 	);
 }

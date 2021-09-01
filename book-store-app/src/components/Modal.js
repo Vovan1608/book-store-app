@@ -1,10 +1,12 @@
 import Form from "./Form";
 
-const Modal = _ => {
+const Modal = () => {
 	return (
-		<div className="modal_wrap hide" id="modal_el">
-			<Form />
-		</div>
+		<main className="main">
+			<div className="modal_wrap" id="modal_el">
+				<Form />
+			</div>
+		</main>
 	);
 }
 

@@ -1,7 +1,7 @@
 import Logo from "./Logo";
 import PagePath from "./PagePath";
 
-const Sidebar = _ => {
+const Sidebar = () => {
 	return (
     <nav className="sidebar">
       <Logo />

@@ -10,6 +10,8 @@ const TableRow = ({search}) => {
 		getAxios('/authors').then(res => setPers(res.data));
 	}, [setPers]);
 
+	useEffect(() => {}, [persons])
+
 	useEffect(() => {
 		const searchRegExp = new RegExp(`${search}`, 'i');
 

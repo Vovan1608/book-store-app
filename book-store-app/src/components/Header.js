@@ -1,4 +1,4 @@
-const Header = _ => {
+const Header = () => {
 	return (
 		<header className="header">
 			<h2>Book Store</h2>

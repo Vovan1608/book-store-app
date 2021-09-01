@@ -97,13 +97,10 @@ tr {
   width: 100%;
 }
 
-.action {
+.action,
+.action_img {
   width: 20px;
   height: 20px;
-}
-
-.action_img {
-  width: 100%;
 }
 
 .books_container {
@@ -167,10 +164,6 @@ tr {
   background-color: #999;
   border: 2px solid #222;
   padding: 2px;
-}
-
-.hide {
-  display: none;
 }
 
 .btn {

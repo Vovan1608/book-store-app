@@ -1,21 +1,7 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "name": "json-server",
-      "author": "typicode"
-    }
+  "modal": [
+
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "authors": [
     {
       "createdAt": "2021-08-31",
@@ -90,44 +76,12 @@
       "date_of_death": "---"
     },
     {
-      "createdAt": "2021-30-08",
-      "id": "10",
-      "name": "Bob",
-      "surname": "Nom",
-      "date_of_birth": "1956-12-13",
-      "date_of_death": "2020-01-23"
-    },
-    {
-      "createdAt": "2021-08-30",
-      "id": "11",
-      "name": "Nick",
-      "surname": "Lojh",
-      "date_of_birth": "1957-02-10",
-      "date_of_death": "---"
-    },
-    {
-      "createdAt": "2021-07-15",
-      "id": "12",
-      "name": "Kol",
-      "surname": "Jom",
-      "date_of_birth": "1913-10-12",
-      "date_of_death": "1996-01-23"
-    },
-    {
       "createdAt": "2021-08-31",
-      "name": "Megan",
-      "surname": "Boyle",
-      "date_of_birth": "1923-12-12",
-      "date_of_death": "1985-12-31",
-      "id": "13"
-    },
-    {
-      "createdAt": "2021-07-15",
-      "id": "14",
-      "name": "Lon",
-      "surname": "Don",
-      "date_of_birth": "1947-02-02",
-      "date_of_death": "1989-03-15"
+      "id": "11",
+      "name": "Mack",
+      "surname": "Ze",
+      "date_of_birth": "1981-10-81",
+      "date_of_death": "---"
     }
   ],
   "books": [
