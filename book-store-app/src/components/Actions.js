@@ -6,7 +6,7 @@ import basket from "../actions/basket.svg";
 import pencil from "../actions/pencil.svg";
 import arrow from "../actions/arrow.svg";
 
-import { deleteAxios, /* getAxios, postAxios */ } from "../services/API";
+import { deleteAxios, getAxios, postAxios } from "../services/API";
 
 const Actions = ({id, setPers, persons}) => {
 	const onClick = e => {
@@ -16,13 +16,15 @@ const Actions = ({id, setPers, persons}) => {
 			setPers(filtered);
 		}
 
-		// if (e.target.id === 'edit') {
-		// 	getAxios(`/authors/${id}`).then(res => {
-		// 		const {createdAt, id, name, surname, date_of_birth, date_of_death} = res.data;
+		if (e.target.id === 'edit') {
+			const fetchData = async () => {
+				const response = await getAxios(`/authors/${id}`);
+				// postAxios('modal', response.data);
+				console.log(response.data);
+			}
 
-		// 		postAxios('modal', {createdAt, id, name, surname, date_of_birth, date_of_death});
-		// 	});
-		// }
+			fetchData();
+		}
 	}
 
 	return (

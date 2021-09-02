@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Input from "./Input";
 import Button from "./Button";
@@ -17,7 +17,21 @@ const Form = () => {
 		date_of_death: ''
 	}
 
+	const initialValidate = {
+		isNameField: false,
+		isSurnameField: false,
+		isBirthDate: false
+	}
+
 	const [state, setState] = useState(initialState);
+	const [isValidate, setValidate] = useState(initialValidate);
+
+	useEffect(() => {
+		if (Object.entries(isValidate).every(el => el === true)) {
+			document.getElementById('submit_btn').disabled = false;
+			console.log('ok');
+		}
+	}, [isValidate]);
 
 	const onClick = e => {
 		if (e.target.id === 'submit_btn') {
@@ -33,7 +47,15 @@ const Form = () => {
 		<form onClick={onClick}>
 			{Object.keys(state).map(el => {
 				return (
-					<Input key={el} name={el} setState={setState} state={state} id={el}/>
+					<Input
+						key={el}
+						name={el}
+						setState={setState}
+						state={state}
+						id={el}
+						setValidate={setValidate}
+						isValidate={isValidate}
+					/>
 				);
 			})}
 			<Link to="/authors">

@@ -170,3 +170,7 @@ tr {
   background-color: #00f;
   color: #fff;
 }
+
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+}

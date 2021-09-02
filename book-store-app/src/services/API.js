@@ -10,4 +10,9 @@ const deleteAxios = (path, id) => axios.delete(`${baseUrl}/${path}/${id}`);
 
 const putAxios = (path, id, info) => axios.put(`${baseUrl}/${path}/${id}`, info);
 
-export {getAxios, postAxios, deleteAxios, putAxios}
+const fetchData = async (path, cb) => {
+	const response = await getAxios(path);
+	cb(response.data);
+}
+
+export {getAxios, postAxios, deleteAxios, putAxios, fetchData}

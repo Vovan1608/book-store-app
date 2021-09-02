@@ -1,26 +1,24 @@
-import { getAxios } from "../services/API";
+import React from "react";
 import { useState, useEffect } from 'react';
+
 import Search from "./Search";
 import Card from "./Card";
+
+import { fetchData } from "../services/API";
 
 const Books = () => {
 	const [books, setBooks] = useState([]);
 	const [searchExp, setSearchExp] = useState('');
 	const [filtered, setFiltered] = useState([]);
 
-	useEffect(_ => {
-		getAxios('/books').then(res => setBooks(res.data));
-	}, [setBooks]);
+	useEffect(() => fetchData('/books', setBooks), [setBooks]);
 
 	useEffect(() => {
 		const searchRegExp = new RegExp(`${searchExp}`, 'i');
+		const filter = books
+			.filter(({author}) => searchRegExp.test(author));
 
-		if (searchExp) {
-			const filter = books
-				.filter(({author}) => searchRegExp.test(author));
-
-			setFiltered(filter);
-		}
+		setFiltered(filter);
 	}, [searchExp, books]);
 
 	const data = searchExp ? filtered : books;

@@ -1,3 +1,5 @@
+import React from "react";
+
 const TableHeaders = ({headers}) => {
 	return (
 		<thead>

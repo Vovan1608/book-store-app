@@ -1,3 +1,5 @@
+import React from "react";
+
 const Card = ({name, author, description, path}) => {
 	return (
 		<div className="card_container">

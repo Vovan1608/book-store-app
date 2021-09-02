@@ -1,31 +1,20 @@
 import React from "react";
 import Actions from "./Actions";
-import { getAxios } from "../services/API";
+import { fetchData } from "../services/API";
 import { useState, useEffect } from 'react';
 
 const TableRow = ({search}) => {
 	const [persons, setPers] = useState([]);
 	const [filtered, setFiltered] = useState([]);
 
-	useEffect(() => {
-		const fetchData = async () => {
-			const response = await getAxios('/authors');
-			setPers(response.data);
-		}
-
-		fetchData();
-
-	}, [setPers]);
+	useEffect(() => fetchData('/authors', setPers), [setPers]);
 
 	useEffect(() => {
 		const searchRegExp = new RegExp(`${search}`, 'i');
+		const filter = persons
+			.filter(({name, surname}) => [name, surname].some(el => searchRegExp.test(el)));
 
-		if (search) {
-			const filter = persons
-				.filter(({name, surname}) => [name, surname].some(el => searchRegExp.test(el)));
-
-			setFiltered(filter);
-		}
+		setFiltered(filter);
 
 	}, [search, persons, setFiltered]);
 

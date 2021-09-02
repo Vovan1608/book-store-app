@@ -1,3 +1,5 @@
+import React from "react";
+
 import TableHeaders from "./TableHeaders";
 import TableRow from "./TableRow";
 

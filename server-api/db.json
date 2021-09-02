@@ -1,5 +1,7 @@
 {
-  "modal": [],
+  "modal": [
+    
+  ],
   "authors": [
     {
       "createdAt": "2021-08-31",
@@ -90,12 +92,20 @@
       "date_of_death": "---"
     },
     {
-      "createdAt": "",
+      "createdAt": "2021-08-31",
       "id": "12",
-      "name": "Bob",
-      "surname": "",
-      "date_of_birth": "",
-      "date_of_death": ""
+      "name": "Megan",
+      "surname": "Boyle",
+      "date_of_birth": "1981-10-81",
+      "date_of_death": "---"
+    },
+    {
+      "createdAt": "2021-08-31",
+      "id": "13",
+      "name": "Vo",
+      "surname": "Ze",
+      "date_of_birth": "1981-10-81",
+      "date_of_death": "---"
     }
   ],
   "books": [
