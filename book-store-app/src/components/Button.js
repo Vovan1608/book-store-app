@@ -1,6 +1,10 @@
+import React from "react";
+
 const Button = ({name, id}) => {
 	return (
-		<button className='btn' id={id} type={name === 'Submit' ? 'submit' : ''}>{name}</button>
+		<button className='btn' id={id}>
+			{name}
+		</button>
 	);
 }
 

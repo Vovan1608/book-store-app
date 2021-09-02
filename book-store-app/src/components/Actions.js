@@ -1,11 +1,12 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
 import Action from "./Action";
 import basket from "../actions/basket.svg";
 import pencil from "../actions/pencil.svg";
 import arrow from "../actions/arrow.svg";
-import { Link } from "react-router-dom";
-import { deleteAxios, getAxios, postAxios } from "../services/API";
+
+import { deleteAxios, /* getAxios, postAxios */ } from "../services/API";
 
 const Actions = ({id, setPers, persons}) => {
 	const onClick = e => {
@@ -15,13 +16,13 @@ const Actions = ({id, setPers, persons}) => {
 			setPers(filtered);
 		}
 
-		if (e.target.id === 'edit') {
-			getAxios(`/authors/${id}`).then(res => {
-				const {createdAt, id, name, surname, date_of_birth, date_of_death} = res.data;
+		// if (e.target.id === 'edit') {
+		// 	getAxios(`/authors/${id}`).then(res => {
+		// 		const {createdAt, id, name, surname, date_of_birth, date_of_death} = res.data;
 
-				postAxios('modal', {createdAt, id, name, surname, date_of_birth, date_of_death});
-			});
-		}
+		// 		postAxios('modal', {createdAt, id, name, surname, date_of_birth, date_of_death});
+		// 	});
+		// }
 	}
 
 	return (

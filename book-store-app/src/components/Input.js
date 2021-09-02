@@ -1,12 +1,13 @@
 import { useState } from "react";
 
-const Input = ({name, passData, id}) => {
+const Input = ({name, id, state, setState}) => {
 	const [input, setInput] = useState('');
 
 	const onInput = e => {
 		const {value} = e.target;
 		setInput(value);
-		passData(value);
+		state[id] = value;
+		setState({...state});
 	}
 
 	return (
