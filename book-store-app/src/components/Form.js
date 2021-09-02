@@ -5,7 +5,7 @@ import { useState } from "react";
 import Input from "./Input";
 import Button from "./Button";
 
-import { postAxios } from "../services/API";
+import { postAxios, putAxios } from "../services/API";
 
 const Form = () => {
 	const initialState = {
@@ -22,6 +22,10 @@ const Form = () => {
 	const onClick = e => {
 		if (e.target.id === 'submit_btn') {
 			postAxios('authors', state);
+		}
+
+		if (e.target.id === 'edit_btn') {
+			putAxios('authors', state.id, state);
 		}
 	}
 

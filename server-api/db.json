@@ -88,6 +88,14 @@
       "surname": "Wolfer",
       "date_of_birth": "1981-10-81",
       "date_of_death": "---"
+    },
+    {
+      "createdAt": "",
+      "id": "12",
+      "name": "Bob",
+      "surname": "",
+      "date_of_birth": "",
+      "date_of_death": ""
     }
   ],
   "books": [
