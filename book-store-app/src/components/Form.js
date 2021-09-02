@@ -11,11 +11,10 @@ const Form = () => {
 	const [surname, setSurname] = useState('');
 	const [date_of_birth, setDateOfBirth] = useState('');
 	const [date_of_death, setDateOfDeath] = useState('');
-	const [data, setData] = useState({});
 
 	const fields = ['createdAt', 'id', 'name', 'surname', 'date_of_birth', 'date_of_death'];
 	const sets = [setCreatedAt, setId, setName, setSurname, setDateOfBirth, setDateOfDeath];
-	
+
 	// useEffect(() => {
 	// 	getAxios('/modal').then(res => {
 	// 		console.log(res.data)
@@ -23,7 +22,6 @@ const Form = () => {
 	// }, []);
 
 	const dataToPost = {createdAt, id, name, surname, date_of_birth, date_of_death}
-	console.log(dataToPost);
 	// const dataToPut = Object.fromEntries(Object.entries(dataToPost).filter(([, val]) => Boolean(val) === true));
 
 	const onSubmit = e => {

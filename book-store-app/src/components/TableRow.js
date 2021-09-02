@@ -1,3 +1,4 @@
+import React from "react";
 import Actions from "./Actions";
 import { getAxios } from "../services/API";
 import { useState, useEffect } from 'react';
@@ -7,10 +8,14 @@ const TableRow = ({search}) => {
 	const [filtered, setFiltered] = useState([]);
 
 	useEffect(() => {
-		getAxios('/authors').then(res => setPers(res.data));
-	}, [setPers]);
+		const fetchData = async () => {
+			const response = await getAxios('/authors');
+			setPers(response.data);
+		}
 
-	useEffect(() => {}, [persons])
+		fetchData();
+
+	}, [setPers]);
 
 	useEffect(() => {
 		const searchRegExp = new RegExp(`${search}`, 'i');
@@ -22,7 +27,7 @@ const TableRow = ({search}) => {
 			setFiltered(filter);
 		}
 
-	}, [search, persons]);
+	}, [search, persons, setFiltered]);
 
 	const data = search ? filtered : persons;
 
@@ -39,7 +44,7 @@ const TableRow = ({search}) => {
 						<td>{date_of_birth}</td>
 						<td>{date_of_death}</td>
 						<td>
-							<Actions id={id}/>
+							<Actions id={id} setPers={setPers} persons={persons}/>
 						</td>
 					</tr>
 				);
