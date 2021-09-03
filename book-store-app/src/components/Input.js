@@ -11,15 +11,18 @@ const Input = ({name, state, setState, setValidate, isValidate}) => {
 		setState({...state});
 
 		if (name === 'name') {
-			setValidate({...isValidate, ...{isNameField: true}});
+			isValidate['isNameField'] = true;
+			setValidate({...isValidate});
 		}
 
 		if (name === 'surname') {
-			setValidate({...isValidate, ...{isSurnameField: true}});
+			isValidate['isSurnameField'] = true;
+			setValidate({...isValidate});
 		}
 
 		if (name === 'date_of_birth') {
-			setValidate({...isValidate, ...{isBirthDate: true}});
+			isValidate['isBirthDate'] = true;
+			setValidate({...isValidate});
 		}
 	}
 

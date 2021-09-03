@@ -167,8 +167,9 @@ tr {
 }
 
 .btn {
-  background-color: #00f;
-  color: #fff;
+  margin: 5px;
+  cursor: pointer;
+  text-align: center;
 }
 
 input:invalid:required {

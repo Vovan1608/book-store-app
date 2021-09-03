@@ -6,7 +6,7 @@ import basket from "../actions/basket.svg";
 import pencil from "../actions/pencil.svg";
 import arrow from "../actions/arrow.svg";
 
-import { deleteAxios, getAxios, postAxios } from "../services/API";
+import { deleteAxios, getAxios} from "../services/API";
 
 const Actions = ({id, setPers, persons}) => {
 	const onClick = e => {
@@ -20,7 +20,6 @@ const Actions = ({id, setPers, persons}) => {
 			const fetchData = async () => {
 				const response = await getAxios(`/authors/${id}`);
 				// postAxios('modal', response.data);
-				console.log(response.data);
 			}
 
 			fetchData();

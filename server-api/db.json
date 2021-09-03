@@ -1,7 +1,5 @@
 {
-  "modal": [
-    
-  ],
+  "modal": [],
   "authors": [
     {
       "createdAt": "2021-08-31",
@@ -92,20 +90,36 @@
       "date_of_death": "---"
     },
     {
-      "createdAt": "2021-08-31",
-      "id": "12",
+      "createdAt": "2021-07-15",
       "name": "Megan",
       "surname": "Boyle",
       "date_of_birth": "1981-10-81",
-      "date_of_death": "---"
+      "date_of_death": "---",
+      "id": "12"
     },
     {
       "createdAt": "2021-08-31",
-      "id": "13",
-      "name": "Vo",
-      "surname": "Ze",
+      "name": "Nick",
+      "surname": "Boyle",
       "date_of_birth": "1981-10-81",
-      "date_of_death": "---"
+      "date_of_death": "---",
+      "id": "13"
+    },
+    {
+      "createdAt": "2021-08-18T22:53:18.719Z",
+      "name": "John",
+      "surname": "Btrown",
+      "date_of_birth": "1981-10-81",
+      "date_of_death": "1995-11-09",
+      "id": "14"
+    },
+    {
+      "createdAt": "2021-09-03",
+      "name": "Mjong",
+      "surname": "Red",
+      "date_of_birth": "1913-10-12",
+      "date_of_death": "1996-01-23",
+      "id": "15"
     }
   ],
   "books": [

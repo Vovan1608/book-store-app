@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect} from "react";
 
 import Input from "./Input";
 import Button from "./Button";
@@ -10,28 +10,32 @@ import { postAxios, putAxios } from "../services/API";
 const Form = () => {
 	const initialState = {
 		createdAt: '',
-		id: '',
 		name: '',
 		surname: '',
 		date_of_birth: '',
-		date_of_death: ''
+		date_of_death: '',
+		id: ''
 	}
 
 	const initialValidate = {
 		isNameField: false,
 		isSurnameField: false,
-		isBirthDate: false
+		isBirthDate: false,
+		isAllValid: () => Object.values(isValidate)
+				.filter(el => typeof el === 'boolean')
+				.every(el => el === true)
 	}
 
 	const [state, setState] = useState(initialState);
 	const [isValidate, setValidate] = useState(initialValidate);
 
+	const { isAllValid } = initialValidate;
+
 	useEffect(() => {
-		if (Object.entries(isValidate).every(el => el === true)) {
-			document.getElementById('submit_btn').disabled = false;
-			console.log('ok');
-		}
-	}, [isValidate]);
+		const condition = isAllValid.call(initialValidate);
+		document.getElementById('submit_btn').disabled = condition ? false : true;
+		document.getElementById('edit_btn').disabled = condition ? false : true;
+	}, [isAllValid, initialValidate]);
 
 	const onClick = e => {
 		if (e.target.id === 'submit_btn') {
