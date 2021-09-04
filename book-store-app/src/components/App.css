@@ -127,6 +127,7 @@ tr {
 
 .picture {
   grid-area: picture;
+  height: 240px;
 }
 
 .img_card {

@@ -3,215 +3,141 @@
   "authors": [
     {
       "createdAt": "2021-08-31",
-      "id": "1",
-      "name": "Nick",
-      "surname": "Wolfer",
-      "date_of_birth": "1957-02-10",
-      "date_of_death": "---"
-    },
-    {
-      "createdAt": "2021-08-18T21:26:29.975Z",
-      "name": "Savanah",
-      "surname": "Murazik",
-      "date_of_birth": "1966-08-10",
-      "date_of_death": "---",
-      "id": "2"
-    },
-    {
-      "createdAt": "2021-08-18T15:37:12.114Z",
-      "name": "Cody",
-      "surname": "McKenzie",
-      "date_of_birth": "1937-01-21",
-      "date_of_death": "1998-09-23",
-      "id": "3"
-    },
-    {
-      "createdAt": "2021-08-28",
-      "id": "4",
-      "name": "Tom",
-      "surname": "Lop",
-      "date_of_birth": "1958-12-05",
-      "date_of_death": "2019-10-10"
-    },
-    {
-      "createdAt": "2021-08-19T06:09:47.481Z",
-      "name": "Addie",
-      "surname": "Koelpin",
-      "date_of_birth": "1957-02-11",
-      "date_of_death": "1995-11-09",
-      "id": "5"
-    },
-    {
-      "createdAt": "2021-08-18T22:53:18.719Z",
-      "name": "Damion",
-      "surname": "Collier",
-      "date_of_birth": "1929-08-21",
-      "date_of_death": "1999-11-23",
-      "id": "6"
-    },
-    {
-      "createdAt": "2021-08-19T11:17:44.944Z",
-      "name": "Leanne",
-      "surname": "DuBuque",
-      "date_of_birth": "1939-15-21",
-      "date_of_death": "1986-04-13",
-      "id": "7"
-    },
-    {
-      "createdAt": "2021-08-19T03:29:24.629Z",
-      "name": "Thalia",
-      "surname": "Boyle",
-      "date_of_birth": "1963-07-18",
-      "date_of_death": "---",
-      "id": "8"
+      "id": 1,
+      "name": "Mikhail",
+      "surname": "Sholokhov",
+      "date_of_birth": "1905-05-11",
+      "date_of_death": "1984-02-21"
     },
     {
       "createdAt": "2021-08-31",
-      "id": "9",
-      "name": "Bob",
-      "surname": "Masko",
-      "date_of_birth": "1981-10-81",
-      "date_of_death": "---"
+      "id": 2,
+      "name": "Mikhail",
+      "surname": "Bulgakov",
+      "date_of_birth": "1891-05-14",
+      "date_of_death": "1940-03-10"
     },
     {
       "createdAt": "2021-08-31",
-      "id": "10",
-      "name": "Bobon",
-      "surname": "Dom",
-      "date_of_birth": "1913-10-81",
-      "date_of_death": "1956-02-13"
-    },
-    {
-      "createdAt": "2021-08-31",
-      "id": "11",
-      "name": "Nick",
-      "surname": "Wolfer",
-      "date_of_birth": "1981-10-81",
-      "date_of_death": "---"
-    },
-    {
-      "createdAt": "2021-07-15",
-      "name": "Megan",
-      "surname": "Boyle",
-      "date_of_birth": "1981-10-81",
-      "date_of_death": "---",
-      "id": "12"
-    },
-    {
-      "createdAt": "2021-08-31",
-      "name": "Nick",
-      "surname": "Boyle",
-      "date_of_birth": "1981-10-81",
-      "date_of_death": "---",
-      "id": "13"
-    },
-    {
-      "createdAt": "2021-08-18T22:53:18.719Z",
-      "name": "John",
-      "surname": "Btrown",
-      "date_of_birth": "1981-10-81",
-      "date_of_death": "1995-11-09",
-      "id": "14"
-    },
-    {
-      "createdAt": "2021-09-03",
-      "name": "Mjong",
-      "surname": "Red",
-      "date_of_birth": "1913-10-12",
-      "date_of_death": "1996-01-23",
-      "id": "15"
+      "id": 3,
+      "name": "Fyodor",
+      "surname": "Dostoevsky",
+      "date_of_birth": "1821-10-30",
+      "date_of_death": "1881-01-28"
     }
   ],
   "books": [
     {
       "id": 1,
-      "date_of_publication": "2222.22.02",
-      "name": "Steve Jobs",
-      "picture": "https://images-na.ssl-images-amazon.com/images/I/41dKkez-1rL._SX326_BO1,204,203,200_.jpg",
-      "author": "Walter Isaacson",
-      "url": "https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1451648537",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto"
+      "author": "Mikhail Sholokhov",
+      "name": "Birthmark (story)",
+      "date_of_publication": "1924-12-14",
+      "picture": "https://static.librebook.me/uploads/pics/01/72/807.jpg",
+      "description": "The young red commander chased the gang for a long time and finally caught up. The battle began, the chieftain of the gang attacked the commander, killed him, took off his boots, realized by the mole on his leg that this was his son, and shot himself."
     },
     {
       "id": 2,
-      "name": "Zero to One",
-      "date_of_publication": "2222.22.02",
-      "picture": "https://images-na.ssl-images-amazon.com/images/I/4137OkbPQ4L._SX331_BO1,204,203,200_.jpg",
-      "author": "Peter Thiel, Blake Masters",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto",
-      "url": "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296"
+      "author": "Mikhail Sholokhov",
+      "name": "Don stories",
+      "date_of_publication": "end of 1925",
+      "picture": "https://i.grenka.ua/shop/1/9/796/donskie-rasskazy_cfc_300_300.jpg",
+      "description": "The edition includes early stories from the 1920s. outstanding Russian writer, Nobel Prize laureate Mikhail Sholokhov."
     },
     {
       "id": 3,
-      "date_of_publication": "2222.22.02",
-      "name": "The Pragmatic Programmer",
-      "picture": "https://images-na.ssl-images-amazon.com/images/I/51cUVaBWZzL._SX380_BO1,204,203,200_.jpg",
-      "author": "David Thomas, Andrew Hunt",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto",
-      "url": "https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052"
+      "author": "Mikhail Sholokhov",
+      "name": "Quiet Don",
+      "date_of_publication": "1937—1940 году",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOYIyWUvhSPmCH1oHftQjwR21JAbHBITVhDkp_gtcVQFb29wg_LNOTxdaw7XzwpWm4hno&usqp=CAU",
+      "description": "The book depicts the life of the Don Cossacks during the First World War, the 1917 revolution and the Civil War in Russia. The events of the novel cover the period from May 1912 to March 1922."
     },
     {
       "id": 4,
-      "date_of_publication": "2222.22.02",
-      "name": "The Unicorn Project",
-      "picture": "https://images-na.ssl-images-amazon.com/images/I/51A4T36jisL._SX334_BO1,204,203,200_.jpg",
-      "author": "Gene Kim",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto",
-      "url": "https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving/dp/1942788762"
+      "author": "Mikhail Sholokhov",
+      "name": "The fate of man",
+      "date_of_publication": "1956",
+      "picture": "https://audioskazki-online.ru/images/rasskazy/sudba-cheloveka@2x.jpg",
+      "description": "With the beginning of the Great Patriotic War, the driver Andrei Sokolov has to part with his family and go to the front. Already in the first months of the war, he was wounded and taken prisoner by the Nazi."
     },
     {
       "id": 5,
-      "date_of_publication": "2222.22.02",
-      "name": "The Passionate Programmer",
-      "picture": "https://images-na.ssl-images-amazon.com/images/I/51m3yzmDFCL._SX331_BO1,204,203,200_.jpg",
-      "author": "Chad Fowler",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto",
-      "url": "https://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic-ebook/dp/B00AYQNR5U"
+      "author": "Mikhail Sholokhov",
+      "name": "They fought for the Motherland",
+      "date_of_publication": "1959",
+      "picture": "http://www.labirint.ru/images/comments_pic/1818/0_5c4ec8e355628325a88d285bd791236e_1525560559.jpg",
+      "description": "The action of the novel 'They Fought for the Motherland' takes place in 1942 during the Great Patriotic War. In the battle for the Old Ilmen farm, 117 men remained from the regiment. Exhausted by tank attacks and retreat, the soldiers marched across the steppe"
     },
     {
       "id": 6,
-      "date_of_publication": "2222.22.02",
-      "name": "Hatching Twitter",
-      "picture": "https://m.media-amazon.com/images/I/51YUkI5ZQ-L.jpg",
-      "author": "Nick Bilton",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto",
-      "url": "https://www.amazon.com/Hatching-Twitter-Story-Friendship-Betrayal-ebook/dp/B00CDUVSQ0"
+      "author": "Mikhail Bulgakov",
+      "name": "The Adventures of Chichikov",
+      "date_of_publication": "1921-10-05",
+      "picture": "https://akniga.org/uploads/media/topic/2019/03/22/09/preview/399295844a113e74dc1b_400x.jpg",
+      "description": "In the kingdom of shadows one day there was an open door. The revived Gogol heroes came out into the world and went to Russia in the early 1920s."
     },
     {
       "id": 7,
-      "date_of_publication": "2222.22.02",
-      "name": "How Google Works",
-      "picture": "https://images-na.ssl-images-amazon.com/images/I/31Xc+yFta0L._SX327_BO1,204,203,200_.jpg",
-      "author": "Eric Schmidt, Jonathan Rosenberg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto",
-      "url": "https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582328"
+      "author": "Mikhail Bulgakov",
+      "name": "The White Guard",
+      "date_of_publication": "1925",
+      "picture": "https://s1.livelib.ru/boocover/1001280409/o/2877/Mihail_Bulgakov__Belaya_gvardiya.jpeg",
+      "description": "The novel is set in 1918, when the Germans who occupied Ukraine leave the City and are captured by Petliura's troops. The author describes the complex, multifaceted world of the family of Russian intellectuals and their friends."
     },
     {
       "id": 8,
-      "date_of_publication": "2222.22.02",
-      "name": "Elon Musk",
-      "picture": "https://m.media-amazon.com/images/I/51tw6UjHpDL.jpg",
-      "author": "Ashlee Vance",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto",
-      "url": "https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future-ebook/dp/B00KVI76ZS"
+      "author": "Mikhail Bulgakov",
+      "name": "Heart of a Dog",
+      "date_of_publication": "1987",
+      "picture": "https://sites.google.com/site/booksyourlove/_/rsrc/1398568807720/velikie-proizvedenia/-sobace-serdce---mihail-bulgakov/01labft3g1237379753.jpg?height=400&width=300",
+      "description": "Moscow, December 1924. An outstanding surgeon, Professor Philip Philipovich Preobrazhensky has achieved remarkable results in rejuvenation. Continuing his research, he conceived an unprecedented experiment - an operation to transplant human pituitary gland and testes to a stray dog."
     },
     {
       "id": 9,
-      "date_of_publication": "2222.22.02",
-      "name": "Six Easy Pieces",
-      "picture": "https://m.media-amazon.com/images/I/51E53HCUKVL.jpg",
-      "author": "Richard P. Feynman",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto",
-      "url": "https://www.amazon.com/Six-Easy-Pieces-Essentials-Explained-ebook/dp/B004OVEYNU"
+      "author": "Mikhail Bulgakov",
+      "name": "The Master and Margarita",
+      "date_of_publication": "1966—1967",
+      "picture": "https://www.bookovka.ua/122606-large_default/master-i-margarita.jpg",
+      "description": "The novel begins on one of the days in May, when two Moscow writers - the chairman of the board of MASSOLIT Mikhail Aleksandrovich Berlioz and the poet Ivan Bezdomny - meet a stranger who looks like a foreigner while walking on the Patriarch's Ponds."
     },
     {
       "id": 10,
-      "date_of_publication": "2222.22.02",
-      "name": "Sapiens",
-      "picture": "https://m.media-amazon.com/images/I/51Sn8PEXwcL.jpg",
-      "author": "Yuval Noah Harari",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quod earum ratione ullam vero esse aspernatur sequi iste obcaecati perferendis architecto",
-      "url": "https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari-ebook/dp/B00ICN066A"
+      "author": "Fyodor Dostoevsky",
+      "name": "Crime and Punishment",
+      "date_of_publication": "1866",
+      "picture": "https://akniga.org/uploads/media/topic/2019/03/22/09/preview/570a590b9aa16a378473_400x.jpg",
+      "description": "Student Rodion Romanovich Raskolnikov, forced to leave the university due to lack of money, goes to the apartment to the pawnbroker Alyona Ivanovna to make a 'test of his enterprise'. In the hero's mind, the idea of killing the 'ugly old woman' has been ripening over the last month."
+    },
+    {
+      "id": 11,
+      "author": "Fyodor Dostoevsky",
+      "name": "The Idiot",
+      "date_of_publication": "1868",
+      "picture": "https://lh3.googleusercontent.com/proxy/zmWMZ4O4SNCoYUQoNfAR4dlvSFSl0Y5nE6HDM1wktV9g6ngfjplX6SsC562aHJlqYy0hwyy85PnDP-EAlFgx90KkIDK44NQlrCwKtqDTgyhx1_sn9DIlaQHfDTLmnpo4URt_aDIQR7Dp9xOl3kzY",
+      "description": "Dostoevsky tries to portray a 'positively beautiful person' - and writes a novel about the fate of a prophet in the modern world, where they burn money in a fireplace and hands on a candle, lie, kill and go crazy."
+    },
+    {
+      "id": 12,
+      "author": "Fyodor Dostoevsky",
+      "name": "Demons",
+      "date_of_publication": "1872",
+      "picture": "https://cv01.twirpx.net/0269/0269018.jpg?t=20190530162411",
+      "description": "The action takes place in the provincial town and in the estate of Varvara Petrovna Stavrogin. The son of the old-style liberal Stepan Trofimovich Verkhovensky, Pyotr Verkhovensky, is the main ideological inspirer of the revolutionary cell."
+    },
+    {
+      "id": 13,
+      "author": "Fyodor Dostoevsky",
+      "name": "Teenager",
+      "date_of_publication": "1875",
+      "picture": "https://lh3.googleusercontent.com/proxy/dxro17TorcQciYuhVN9zO5QrJ8lw-cQEm81Kk_xsSWftBIBmv8BkkVMm_roEdHsiE1ZPzoRtVfDmPfFokS_NjQ",
+      "description": "With the help of the Teenager, the author shows how the personality of the protagonist is formed through greed, lust for profit and debauchery. The writer contrasts the nobleman Versilov, the father of Arkady, and the courtyard Makar Dolgoruky, the formal father."
+    },
+    {
+      "id": 14,
+      "author": "Fyodor Dostoevsky",
+      "name": "The Brothers Karamazov",
+      "date_of_publication": "1879-1880",
+      "picture": "https://www.kniging.com.ua/image/cache/data/book/klassik14/bratya_karamazovy_4116-295x350.jpg",
+      "description": "The final work of Dostoevsky is a novel about the main issues of the world hidden behind a detective plot. Vice here opposes holiness, anguish - meekness, and the tear of a child - the imperious Karamazism."
     }
   ]
 }

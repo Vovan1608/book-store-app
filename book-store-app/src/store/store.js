@@ -4,11 +4,12 @@ import { getAxios } from "../services/API";
 const getAuthors = (state = []) => {
 
 	async function f() {
-		const result = await getAxios('/authors').then(res => res.data);
-		return result; // array
+		await getAxios('/authors').then(res => {
+			state = res.data;
+		});
 	}
-	f()
-	return state;
+
+	f();
 }
 
 // const playList = (state = [], {payload, type}) => {
